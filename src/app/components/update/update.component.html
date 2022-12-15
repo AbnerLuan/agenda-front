@@ -1,0 +1,26 @@
+<form >
+    <h1>Editando uma Tarefa</h1>
+
+    <mat-form-field appearance="fill" class="dataParaFinalizar">
+        <mat-label>Data para finalizar</mat-label>
+        <input [(ngModel)]="agenda.dataParaFinalizar" name="agenda.dataParaFinalizar" matInput [matDatepicker]="dp3" disabled>        
+        <mat-datepicker-toggle matIconSuffix [for]="dp3"></mat-datepicker-toggle>
+        <mat-datepicker #dp3 disabled="false"></mat-datepicker>
+      </mat-form-field>
+
+      <div class="forms">
+        <mat-form-field class="form">
+            <mat-label>Titulo</mat-label>
+            <input [(ngModel)]="agenda.titulo" name="agenda.titulo" matInput type="text" placeholder="ex:Estudar Programação">        
+          </mat-form-field>
+    
+          <mat-form-field class="form">
+            <mat-label>Descrição</mat-label>
+            <input [(ngModel)]="agenda.descricao" name="agenda.descricao" matInput type="text" placeholder="ex:Aprimorar meus conhecimentos em Java">        
+          </mat-form-field>
+      </div>
+<div class="buttons">
+    <button  (click)="update()" mat-stroked-button color="primary">Atualizar</button>
+    <button (click)="cancel()" mat-stroked-button color="warn">Cancelar</button>
+</div>
+</form>

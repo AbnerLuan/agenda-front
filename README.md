@@ -1,27 +1,44 @@
-# Agenda
+# Indice
+- [Sobre o projeto](#-sobre-o-projeto)
+- [Tecnologias utilizadas](#-tecnologias-utilizadas)
+- [Como baixar o projeto](#-como-baixar-o-projeto)
+- [Fotos do projeto](#-imagens-do-projeto)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.3.
+# Sobre o projeto 
+O projeto agenda foi desenvolvido para praticar conceitos de Java, Springboot e Angular.
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+<img src="https://ik.imagekit.io/uuvdtlvst/git-agenda.gif?ik-sdk-version=javascript-1.4.3&updatedAt=1671139287542">
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+# Tecnologias utilizadas:
+- Java 17;
+- SpringBoot 3.0;
+- H2 Database;
+- Postman;
+- Eclipse;
+- Visual Studio Code;
+- Angular 15.0.3;
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+# Como baixar o projeto
+```bash
+# Clone o repositório com o comando abaixo
+$ git clone https://github.com/AbnerLuan/agenda
 
-## Running unit tests
+# Entre no diretório do projeto com o comando abaixo
+$ cd agenda
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+# Instale todas as dependências com o comando abaixo
+$ npm install
 
-## Running end-to-end tests
+# Inicie o projeto localmente e acesso-o pelo endereco `http://localhost:4200/`.
+$ ng serve
+```
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+# Fotos do Projeto
+<img src="https://ik.imagekit.io/uuvdtlvst/foto_1.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1671142595896">
 
-## Further help
+<img src="https://ik.imagekit.io/uuvdtlvst/foto2.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1671142595943">
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+<img src="https://ik.imagekit.io/uuvdtlvst/foto3.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1671142596082">
